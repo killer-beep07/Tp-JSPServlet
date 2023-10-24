@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #000; 
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+th {
+    background-color: #444;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    color: #000;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: #000; 
+}
+
+input[type="submit"] {
+    background-color: #007f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+input[type="submit"]:last-child {
+    background-color: #ff5733; 
+}
+
+a {
+    text-decoration: none;
+    color: #007f00;
+}
+
+a:hover {
+    color: #00aa00;
+}
+
+
+a[href*="op=delete"] {
+    color: #ff5733; 
+}
+
+
+a[href*="op=update"] {
+    color: #3498db; 
+}
